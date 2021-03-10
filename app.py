@@ -3,9 +3,8 @@ import tensorflow as tf
 import numpy as np
 import pandas as pd 
 import tensorflow.keras
-from tensorflow.keras.datasets import mnist
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Dense, Dropout, Activation, Flatten
+
+from tensorflow.keras.layers import Dense, Dropout
 from tensorflow.keras.optimizers import Adam
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.model_selection import train_test_split
